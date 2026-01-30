@@ -1,9 +1,7 @@
-daftar_akurasi = [0.85, 0.90, 0.75]
-daftar_akurasi[0] = 0.99
-daftar_akurasi.append(0.92)
+daftar_usia = (10, 20, 30, 40, 50)
+daftar_usia_list = list(daftar_usia)
+daftar_usia_list[0] = 15
+daftar_usia = tuple(daftar_usia_list)
 
-input_user = "0.88"
-akurasi_baru = float(input_user) #Konversi input ke float untuk menseragamkan data kedalam list agar mudah di ola
-daftar_akurasi.append(akurasi_baru)
-
-print(daftar_akurasi)
+print(daftar_usia)
+print(type(daftar_usia))
