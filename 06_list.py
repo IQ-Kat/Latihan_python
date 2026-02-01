@@ -10,9 +10,9 @@ latihan_list.insert(2, "anggur")  #menambahkan nilai di index ke 2
 print("Hasil insert anggur di index 2 : ", latihan_list)
 latihan_list.remove("jeruk")  #menghapus nilai "jeruk" dari list
 print("Hasil remove jeruk : ", latihan_list)
-latihan_list.pop()  #menghapus nilai terakhir dari list
+latihan_list.pop()  #menghapus nilai terakhir dari list, ingat pop itu sistem ambil, hapus, simpan nilai yang di pop ke variable lain jika di perlukan
 print("Hasil pop() : ", latihan_list)
-latihan_list[0] = 10  #mengubah nilai di index ke 0 menjadi 10
+latihan_list[0] = 10  #mengambil dan mengubah nilai di index ke 0 menjadi 10
 print("Hasil ubah index 0 menjadi 10 : ", latihan_list)
 latihan_list.sort(key=str)  #mengurutkan list, gunakan key=str untuk menghindari error saat ada tipe data campuran
 print("Hasil sort() : ", latihan_list)
