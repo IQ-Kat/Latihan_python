@@ -1,4 +1,4 @@
-"""Dictionry atau di sebut dict adalah tipe data yang menyimpan pasangan key dan value, Key harus unik dan immutable (tidak bisa diubah), sedangkan value bisa berupa tipe data apapun dan bisa diubah.
+"""Dictionry atau di sebut dict adalah tipe data mutable yang menyimpan pasangan key dan value, Key harus unik dan immutable (tidak bisa diubah), sedangkan value bisa berupa tipe data apapun dan bisa diubah.
 Dictionary berguna ketika kita ingin menyimpan data yang memiliki hubungan key-value, seperti data pengguna dengan username sebagai key dan informasi pengguna sebagai value. gunakan kurung kurawal {} untuk membuat dictionary, dan pisahkan key dan value dengan tanda titik dua :."""
 
 # Membuat dictionary : bagus jika datanya sedikit dan sudah tahu apa isinya minus jika datanya banyak dan dinamis sulit untuk di atur

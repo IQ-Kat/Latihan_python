@@ -1,4 +1,4 @@
-"""Sets berbeda dengan list atau tuple karena sets tidak berurutan dan tidak mengizinkan duplikasi elemen, serta menggunakan kurung kurawal {}.
+"""Sets berbeda dengan list  meski sama sama mutable atau tuple karena sets tidak berurutan dan tidak mengizinkan duplikasi elemen, serta menggunakan kurung kurawal {}.
 Sets bersifat mutable artinya isinya bisa diubah setelah dibuat, namun elemen di dalam sets haruslah tipe data yang immutable seperti string, angka, atau tuple.
 
 Sets berguna ketika kita ingin menyimpan koleksi unik dari elemen dan melakukan operasi matematika seperti union, intersection, difference dan symmetric difference."""
