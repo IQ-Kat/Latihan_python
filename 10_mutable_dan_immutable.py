@@ -1,5 +1,5 @@
 #Contoh data Immutable dan Mutable di Python
-"""Data Immutable adalah data yang tidak bisa diubah setelah dibuat, jadi Identitas atau alamat memorinya tetap sama walaupun isinya diubah.
+"""Data Immutable adalah data yang tidak bisa diubah setelah dibuat, jadi Identitas atau alamat memorinya berubah saat isinya diubah.
 Contoh data immutable di Python adalah : int, float, string, dan tuple"""
 Nama_Dev = "Ikbal" #String adalah data immutable
 print("Sebelum diubah, Nama_Dev : ", Nama_Dev, " dengan id : ", id(Nama_Dev))
