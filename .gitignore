@@ -2,6 +2,8 @@
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,visualstudiocode,windows
 
 ### Python ###
+#File
+program_latihan.py
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
